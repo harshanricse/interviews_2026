@@ -1,0 +1,23 @@
+
+// print duplicates using java8
+["apple","mango","orange","mango"]
+
+
+li.stream().groupingBy(x->x,x).
+
+// print 
+str="xyz"
+Set<String> hs = new HashSet();
+for(int i=0;i<str.length;i++){
+	for(int j=i+1;j<str.length;j++){
+		for(int k=j+1;k<str.length;k++){
+				hs.add(i+j+k);
+		}
+	}
+}
+
+expected o/p:
+yxz
+yzx
+
+
